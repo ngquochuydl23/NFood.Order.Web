@@ -1,9 +1,10 @@
 import React from 'react';
+import DefaultHeader from "../../Header/DefaultHeader";
 
 const DefaultLayout = (props) => {
   return (
     <div>
-      Vu Nhi
+      <DefaultHeader />
       {props.children}
     </div>
   )

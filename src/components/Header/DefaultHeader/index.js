@@ -5,22 +5,14 @@ import MenuButton from '../../Button/MenuButton';
 import { ThemeContext } from "../../../App.js";
 import { Nav } from 'react-bootstrap';
 
-class Header extends React.Component {
-
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      openAuthDialog: false
-    }
-  }
-
+class DefaultHeader extends React.Component {
   render() {
     return (
-      <>
-      </>
+      <div className="header-layout">
+        
+      </div>
     );
   }
 }
 
-export default Header;
+export default DefaultHeader;

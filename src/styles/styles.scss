@@ -1,31 +1,7 @@
-@font-face {
-    /* averta_standard_regular.ttf */
-    font-family: 'averta_standard_regular';
-    src: local('averta_standard_regular'), url(../assets/fonts/averta_standard_regular.ttf) format('truetype');
+@import './theme.scss';
+@import './fontFamily.scss';
+@import './base.scss';
+
+.page-body {
+    
 }
-
-@font-face {
-    /* quicksand_regular.ttf */ 
-    font-family: 'averta_std_bold';
-    src: local('averta_std_bold'), url(../assets/fonts/averta_std_bold.ttf) format('truetype');
-}
-
-// Color
-$color-accent : #7ac142;
-$text-color-primary : #000;
-$color-error : #D30000;
-$color-light-gray : #Bebebe;
-$color-gray : #606060;
-$color-whitesmoke : #f5f5f5;
-
-
-// Font
-$default-font : averta_standard_regular;
-$bold-font : averta_std_bold;
-
-// Dimession
-$border-radius: 4px;
-$title-font-size : 25px;
-$subtitle-font-size : 15px;
-$container-width : '100%';
-

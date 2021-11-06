@@ -1,0 +1,21 @@
+@import "./theme.scss";
+
+.card-base {
+  border-radius: $border-radius-base;
+}
+
+.input-base {
+  
+}
+
+.button-base {
+  border-radius: $border-radius-base;
+}
+
+.button-fill {
+  @extend .button-base;
+}
+
+.button-outline {
+  @extend .button-base;
+}

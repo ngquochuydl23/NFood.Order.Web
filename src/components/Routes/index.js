@@ -23,7 +23,7 @@ export const routes = [
     layout: LoginLayout
   },
   {
-    path: '/location',
+    path: '/FindLocation',
     component: require("../../pages/FindLocation"),
     layout: FindLocationLayout
   },
