@@ -1,0 +1,25 @@
+// Regular Font
+// Averta Standard Regular
+@font-face {
+  font-family: 'averta_standard_regular';
+  src:  local('averta_standard_regular'),
+        url(../../assets/fonts/averta_standard_regular.ttf) 
+        format('truetype');
+}
+
+// Bold Font
+// Averta Standard Bold
+@font-face {
+  font-family: 'averta_std_bold';
+  src:  local('averta_std_bold'), 
+        url(../../assets/fonts/averta_std_bold.ttf)
+        format('truetype');
+}
+
+// Baloo Regular
+@font-face {
+  font-family: 'baloo-regular';
+  src:  local('baloo-regular'), 
+        url(../../assets/fonts/baloo-regular.ttf)
+        format('truetype');
+}

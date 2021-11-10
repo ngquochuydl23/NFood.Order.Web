@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 const FindLocationLayout = (props) => {
   return (
-    <div className="page-find-location">
+    <div>
       {props.children}
     </div>
   )

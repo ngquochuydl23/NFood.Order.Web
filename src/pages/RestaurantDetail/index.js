@@ -3,7 +3,7 @@ import React from 'react';
 class RestaurantDetail extends React.Component {
   render() {
     return (
-      <div>
+      <div className="pages-layout">
         RestaurantDetail
       </div>
     );

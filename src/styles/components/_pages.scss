@@ -1,0 +1,6 @@
+@import '../mixins/mixin.scss';
+
+
+.pages-layout {
+  @include flex(1, column);
+}

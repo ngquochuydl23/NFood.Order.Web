@@ -1,7 +1,8 @@
-@import "./mixin.scss";
-@import "./theme.scss";
+@import "./variable.scss";
 
 * {
+  margin-block-end: 0;
+  margin-block-start: 0;
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: transparent;
@@ -22,16 +23,38 @@ a {
   -webkit-touch-callout: none;
 }
 
-.ellipsis{
-  overflow:hidden;
-  text-overflow:ellipsis;
-  white-space:nowrap
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 p {
   color: $text-color-secondary;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: $text-color-primary;
+}
+
+.app-name {
+  font-family: $font-family-baloo-regular;
+  color: $green-banana;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.button-primary {
+  color: $text-color-white;
+  background-color: $green-banana;
+  border-radius: $border-radius-base;
+}
+
+.opacity-transparent {
+  opacity: 0.3;
+  background-color: $black;
 }

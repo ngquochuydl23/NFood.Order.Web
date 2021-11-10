@@ -1,0 +1,11 @@
+@import '../../base.scss';
+
+$nav-link-padding-y : 2rem;
+$navbar-padding-y : 1rem;
+$nav-link-height : 1rem;
+$navbar-brand-height: 2rem;   
+
+$font-family-base : $font-family-averta-regular;
+$font-family-code : $font-family-averta-regular;
+
+@import "~bootstrap/scss/bootstrap";

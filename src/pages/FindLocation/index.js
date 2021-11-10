@@ -1,12 +1,32 @@
 import React from 'react';
-import Button from '@mui/material/Button';
+import { createTokenLocation } from "../../utils/createTokenLocation";
 
 class FindLocation extends React.Component {
+
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      
+    }
+  }
+
+  getLocation = () => {
+    var location = {
+      hasLocation: true,
+      location: {
+        address: '59 Xô Viết Nghệ Tĩnh, Phường 7, Đà Lạt',
+        latitude: '11.9600238',
+        longitude: '108.4394743,',
+      }
+    }
+    return createTokenLocation(location)
+  }
+
   render() {
     return (
       <div>
-        <h1>Vũ Hoàng Uyên Nhi</h1>
-        <p>Tôi muốn ế trong 8 năm nữa để tui có được Vũ Hoàng Uyên Nhi là vợ tôi</p>
+
       </div>
     );
   }
